@@ -8,6 +8,8 @@
 - I should be able to see the records flowing without the UI to be stuck
 - I should be able to stop the consumption, select another topic, then consume it etc.
 
+Time estimated: it depends on you!
+
 ### Extra
 
 Here are additional stuff we are using in Conduktor:
