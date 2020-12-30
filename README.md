@@ -3,8 +3,9 @@
  Write a [tornadofx](https://github.com/edvin/tornadofx) application in Kotlin where we can see records from a topic:
 
 - I should be able to set a Kafka bootstrap address
+- I should be able to add additional properties to pass to the KafkaAdmin & KafkaConsumer (security etc.)
 - I should be able to view all the topics
-- I should be able to select a topic and consume its data
+- I should be able to select a topic and consume its data from the beginning
 - The application should not rely on consumer group but custom partition assignment
 - I should be able to see the records flowing without the UI to be stuck
 - I should be able to stop the consumption, select another topic, then consume it etc.
