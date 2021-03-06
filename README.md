@@ -1,6 +1,6 @@
 ## We're hiring! 👨‍💻 👩‍💻
 
-Don't hesitate to do the challenge presented here (and in [code-comments](https://github.com/conduktor/conduktor-coding-challenge/tree/main/code-comments)) and tell us: jobs@conduktor.io!
+Don't hesitate to do the challenges presented here and tell us: jobs@conduktor.io!
 
 We're constanly hiring Software Engineers familiar with the Apache Kafka ecosystem (developers & ops). Find your position here: https://www.conduktor.io/jobs/
 
