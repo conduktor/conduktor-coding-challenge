@@ -2,7 +2,7 @@
 
 Don't hesitate to do the challenges presented here and tell us: jobs@conduktor.io!
 
-We're constanly hiring Software Engineers familiar with the Apache Kafka ecosystem (developers & ops), to know how to code on the JVM (Kotlin/Scala, a bit of Java). Find your position here: https://www.conduktor.io/jobs/
+We're constanly hiring Software Engineers familiar with the Apache Kafka ecosystem (developers & ops), who know how to code on the JVM (Kotlin/Scala, a bit of Java). Find your position here: https://www.conduktor.io/jobs/
 
 ## Coding Challenge
 
