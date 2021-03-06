@@ -1,12 +1,12 @@
-## We're hiring! 👨‍💻 👩‍💻
+# We're hiring! 👨‍💻 👩‍💻
 
 Don't hesitate to do the challenges presented here and tell us: jobs@conduktor.io!
 
 We're constanly hiring Software Engineers familiar with the Apache Kafka ecosystem (developers & ops), who know how to code on the JVM (Kotlin/Scala, a bit of Java), with a interest for smart UI/UX. Find your position here: https://www.conduktor.io/jobs/
 
-## Coding Challenge
+# Challenges
 
-### Software Development
+## 1/ Software Development
 
 Write a [tornadofx](https://github.com/edvin/tornadofx) application in Kotlin or a [scalafx](https://www.scalafx.org/) application in Scala, where we can see records from a topic:
 
@@ -20,11 +20,11 @@ Write a [tornadofx](https://github.com/edvin/tornadofx) application in Kotlin or
 
 Time estimated: it depends on you!
 
-### Code Comments
+## 2/ Code Comments
 
 Review the [code-comments](https://github.com/conduktor/conduktor-coding-challenge/tree/main/code-comments) and tell us what do you think of them.
 
-### Extra
+# Additional libraries you can use
 
 Here are additional stuff we are using in Conduktor (Kotlin, and some Scala):
 
