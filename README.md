@@ -10,6 +10,7 @@ We're constanly hiring Software Engineers familiar with the Apache Kafka ecosyst
 
 Write a [tornadofx](https://github.com/edvin/tornadofx) application in Kotlin or a [scalafx](https://www.scalafx.org/) application in Scala, where we can see records from a topic:
 
+- Do not use FXML but plain code for views.
 - I should be able to set a Kafka bootstrap address
 - I should be able to add additional properties to pass to the KafkaAdmin & KafkaConsumer (security etc.)
 - I should be able to view all the topics
