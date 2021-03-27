@@ -8,9 +8,14 @@ We're constanly hiring Software Engineers familiar with the Apache Kafka ecosyst
 
 ## 1/ Software Development
 
-Write a [tornadofx](https://github.com/edvin/tornadofx) application in Kotlin or a [scalafx](https://www.scalafx.org/) application in Scala (with ZIO), (or a web front-end / Scala backend but that's not how Conduktor is made yet!) where we can see records from a topic:
+- Write a [tornadofx](https://github.com/edvin/tornadofx) application in Kotlin
+- OR a [scalafx](https://www.scalafx.org/) application in Scala+ZIO
+- OR a web front-end / Scala+ZIO backend (that's not how Conduktor is made)
+
+The application should display records flowing from a topic I've selected.
 
 ### I should be able to
+
 - set a Kafka bootstrap address
 - add additional properties to pass to the KafkaAdmin & KafkaConsumer (security etc.)
 - view all the topics
