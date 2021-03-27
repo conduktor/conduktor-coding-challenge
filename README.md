@@ -10,14 +10,21 @@ We're constanly hiring Software Engineers familiar with the Apache Kafka ecosyst
 
 Write a [tornadofx](https://github.com/edvin/tornadofx) application in Kotlin or a [scalafx](https://www.scalafx.org/) application in Scala (with ZIO), (or a web front-end / Scala backend but that's not how Conduktor is made yet!) where we can see records from a topic:
 
-- Do not use FXML but plain code for views.
-- I should be able to set a Kafka bootstrap address
-- I should be able to add additional properties to pass to the KafkaAdmin & KafkaConsumer (security etc.)
-- I should be able to view all the topics
-- I should be able to select a topic and consume its data from the beginning
-- The application should not rely on consumer group but on custom partition assignment
-- I should be able to see the records flowing without the UI to be stuck
-- I should be able to stop the consumption, select another topic, then consume it etc.
+### I should be able to
+- set a Kafka bootstrap address
+- add additional properties to pass to the KafkaAdmin & KafkaConsumer (security etc.)
+- view all the topics
+- select a topic and consume its data from the beginning
+- see the records flowing without the UI to be stuck
+- stop the consumption, select another topic, then consume it etc.
+
+### Tech orientation
+
+- Do not use Maven
+- JavaFX: Do not use FXML but plain code for views.
+- Kafka: Do not use consumer groups but custom partition assignments only
+
+### How long?
 
 Time estimated: it depends on you!
 
