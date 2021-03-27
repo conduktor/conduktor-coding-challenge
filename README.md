@@ -8,7 +8,7 @@ We're constanly hiring Software Engineers familiar with the Apache Kafka ecosyst
 
 # Challenges
 
-## 1/ Software Development
+## 1/ A mini-Conduktor
 
 - Write a [tornadofx](https://github.com/edvin/tornadofx) application in Kotlin
 - OR a [scalafx](https://www.scalafx.org/) application in Scala+ZIO
@@ -35,7 +35,7 @@ The application should display records flowing from a topic I've selected.
 
 Time estimated: it depends on you!
 
-## 2/ Code Comments
+## 2/ Comment the code
 
 Review the [code-comments](https://github.com/conduktor/conduktor-coding-challenge/tree/main/code-comments) and tell us what do you think of them.
 
