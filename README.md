@@ -10,11 +10,11 @@ We're constanly hiring Software Engineers familiar with the Apache Kafka ecosyst
 
 ## 1/ A mini-Conduktor
 
-- Write a [tornadofx](https://github.com/edvin/tornadofx) application in Kotlin
+Write an application that displays records flowing from a topic I've selected.
+
+- Write a [tornadofx](https://github.com/edvin/tornadofx) application in Kotlin (that's how Conduktor is made)
 - OR a [scalafx](https://www.scalafx.org/) application in Scala+ZIO
 - OR a web front-end / Scala+ZIO backend (that's not how Conduktor is made)
-
-The application should display records flowing from a topic I've selected.
 
 ### I should be able to
 
@@ -30,6 +30,7 @@ The application should display records flowing from a topic I've selected.
 - Do not use Maven
 - JavaFX: Do not use FXML but plain code for views.
 - Kafka: Do not use consumer groups but custom partition assignments only
+- If you're using Scala, you must also use [ZIO](https://zio.dev/).
 
 ### How long?
 
@@ -39,7 +40,7 @@ Time estimated: it depends on you!
 
 Review the [code-comments](https://github.com/conduktor/conduktor-coding-challenge/tree/main/code-comments) and tell us what do you think of them.
 
-# Additional libraries you can use
+# Additional libraries you can use in Kotlin
 
 Here are additional stuff we are using in Conduktor (Kotlin, and some Scala):
 
@@ -47,5 +48,5 @@ Here are additional stuff we are using in Conduktor (Kotlin, and some Scala):
 - Use [`Flow<>`](https://kotlinlang.org/docs/reference/coroutines/flow.html) to make continuous data processing easier to code (like RxJava, Reactor, Akka Streams, ZIO Streams etc.)
 - Use [Arrow kt](https://arrow-kt.io/) (core & fx) to work with more functional programming data structures (Either, Validated, traverse, simili for-comprehension etc.)
 
-If you're using Scala, you can use [ZIO](https://zio.dev/).
+
 
