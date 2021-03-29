@@ -12,7 +12,7 @@ We're constanly hiring Software Engineers familiar with the Apache Kafka ecosyst
 
 Write an application that displays records flowing from a topic I've selected.
 
-- Write a [tornadofx](https://github.com/edvin/tornadofx) application in Kotlin (that's how Conduktor is made)
+- Write a [tornadofx](https://github.com/edvin/tornadofx) application in Kotlin (that's how Conduktor is made), use the branch `jdk10` to use jdk11+ (no Java 8!)
 - OR a [scalafx](https://www.scalafx.org/) application in Scala+ZIO
 - OR a web front-end / Scala+ZIO backend (that's not how Conduktor is made)
 
