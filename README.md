@@ -28,6 +28,7 @@ Write an application that displays records flowing from a topic I've selected.
 ### Tech orientation
 
 - Do not use Maven
+- Use Java 11+ or more. (no Java 8)
 - JavaFX: Do not use FXML but plain code for views.
 - Kafka: Do not use consumer groups but custom partition assignments only
 - If you're using Scala, you must also use [ZIO](https://zio.dev/).
