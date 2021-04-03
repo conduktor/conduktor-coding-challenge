@@ -10,12 +10,16 @@ We're constanly hiring Software Engineers familiar with the Apache Kafka ecosyst
 
 ## 1/ A mini-Conduktor
 
-Write an application that displays records flowing from a topic I've selected. This will consist in 2 parts: a view in Kotlin and a module in Scala
+Write an application that displays records flowing from a topic I've selected.
+
+Your project will consist in 2 sub-projects:
+1/ a module for the application itself with its "view" (in Kotlin or Scala)
+2/ a module for Apache Kafka interactions in Scala.
 
 - Use sbt or gradle
-- Write a [tornadofx](https://github.com/edvin/tornadofx) application in Kotlin OR a [scalafx](https://www.scalafx.org/)
-- Write a Scala+ZIO module to deal with the features (Apache Kafka list topics, consume records...)
-- Start the application that will use the module (with interop ZIO <-> Coroutine and ZStreams <-> Flow if you're using Kotlin)
+- 1/ For the view, write a [tornadofx](https://github.com/edvin/tornadofx) app in Kotlin OR a [scalafx](https://www.scalafx.org/) app in Scala
+- 2/ Write a Scala module using ZIO to deal with Apache Kafka (list topics, consume records...)
+- If you're using Kotlin, deal with the interop ZIO <-> Coroutine and ZStreams <-> Flow (the application should display the records in real-time)
 
 ### I should be able to
 
