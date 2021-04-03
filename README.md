@@ -45,7 +45,7 @@ Review the [code-comments](https://github.com/conduktor/conduktor-coding-challen
 
 # If you use Kotlin
 
-Here are additional stuff we are using in Conduktor (Kotlin, and some Scala):
+Here are additional stuff we are using with Kotlin:
 
 - Use [coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html) and not basic `Thread`s to work with async stuff. It provides a more granular level, works with Fibers, can scale massively without impact, provide automatic supervision (parent-child relationships), etc.
 - Use [`Flow<>`](https://kotlinlang.org/docs/reference/coroutines/flow.html) to make continuous data processing easier to code (like RxJava, Reactor, Akka Streams, ZIO Streams etc.)
