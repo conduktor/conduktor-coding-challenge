@@ -37,6 +37,13 @@ Your project will consist in 2 sub-projects:
 
 ### Tech orientation
 
+#### Front-end
+
+- Use Ant Design for the UI components
+- For user accounts, you can create a [free Auth0 account](https://auth0.com/pricing) or similar solutions (Okta...).
+
+#### API
+
 - Do NOT use Maven
 - Do NOT use Spring*. You can use Micronaut (this is what we're using for our customer API), or Scala.
 - Use JDK 11+ or more. (no JDK 8)
