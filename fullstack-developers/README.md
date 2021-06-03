@@ -16,8 +16,8 @@ eg: I register as john@cdkt.io. I'm first one of my domain cdkt.io to register. 
 
 Your project will consist in 2 sub-projects:
 
-1/ an API and its database (PostgreSQL)
-2/ a front-end (Vue or React)
+- an API and its database (PostgreSQL)
+- a front-end (Vue or React)
 
 ### I should be able to
 
