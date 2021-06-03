@@ -32,6 +32,7 @@ Your project will consist in 2 sub-projects:
 - Do NOT use Maven
 - Do NOT use Spring*
 - Use JDK 11+ or more. (no JDK 8)
+- You can do REST API or GraphQL
 
 ### How long?
 
