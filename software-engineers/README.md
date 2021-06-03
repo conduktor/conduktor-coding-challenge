@@ -6,7 +6,7 @@ We're hiring Software Engineers familiar with the Apache Kafka ecosystem (as Dev
 
 # The Challenge
 
-## 1/ A mini-Conduktor
+## 1/ Build a mini-Conduktor
 
 Write an application that displays records flowing from a topic I've selected.
 
@@ -32,7 +32,7 @@ If you're using Kotlin for the view, you must deal with the interop ZIO <-> Coro
 ### Tech orientation
 
 - Do not use Maven
-- Use JVM Java 11+ or more. (no Java 8) (you may use the branch `jdk10` of tornadofx if using it)
+- Use JDK 11+ or more. (no JDK 8) (you may use the branch `jdk10` of tornadofx if using it)
 - JavaFX: Do NOT use FXML but plain code for views.
 - Apache Kafka: Do NOT use consumer groups but custom partition assignments (no group id should be used)
 

@@ -8,11 +8,30 @@ More details: https://www.conduktor.io/jobs/
 
 # The Challenge
 
-## ???
+## Build a customer portal
+
+We'd like you to create a website where we could register/login, create/join teams (a team is a company, so it's private), and be able to send an invitation link to other developers for them to join my team. 
+
+eg: I register as john@cdkt.io. I'm first one of my domain cdkt.io to register. I must create the team "cdkt" and I'll be designated as the owner. Then, I'll be able to invite my coworkers from @cdkt.io to join my "cdkt" team.
+
+Your project will consist in 2 sub-projects:
+
+1/ an API (no Spring) and its database (PostgreSQL)
+2/ a front-end (Vue or React)
 
 ### I should be able to
 
+- Register/Login with my email
+- Create my team if my domain is not in the system yet
+- Invite people to my team
+- They can login and be a Member of my team
+- As an Owner, I can remove any Member
+
 ### Tech orientation
+
+- Do NOT use Maven
+- Do NOT use Spring*
+- Use JDK 11+ or more. (no JDK 8)
 
 ### How long?
 
