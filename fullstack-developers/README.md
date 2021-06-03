@@ -16,8 +16,8 @@ We'd like you to create a website where we could register/login, create/join tea
 ## Scenario
 
 - I register as john@cdkt.io.
-- I'm first one of my domain cdkt.io to register.
-- I *must* create the team "cdkt". I'll be designated as the owner.
+- I'm the first one of my domain cdkt.io to register.
+- This will create the team "cdkt". I'll be designated as the owner.
 - Then, I'll be able to invite my coworkers from @cdkt.io to join my "cdkt" team.
 
 ## Structure
