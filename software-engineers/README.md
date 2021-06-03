@@ -2,7 +2,7 @@
 
 Don't hesitate to do the challenges presented here and tell us: jobs@conduktor.io!
 
-We're hiring Software Engineers familiar with the Apache Kafka ecosystem (developers & ops), who work on the JVM (Kotlin/Scala/ZIO), with an interest for smart UI/UX. More details: https://www.conduktor.io/jobs/
+We're hiring Software Engineers familiar with the Apache Kafka ecosystem (as Developers & Ops) and the JVM (Kotlin/Scala/ZIO), with an interest for smart UI/UX. More details: https://www.conduktor.io/jobs/
 
 # The Challenge
 
