@@ -12,7 +12,15 @@ More details: https://www.conduktor.io/jobs/
 
 We'd like you to create a website where we could register/login, create/join teams (a team is a company, so it's private), and be able to send an invitation link to other developers for them to join my team. 
 
-eg: I register as john@cdkt.io. I'm first one of my domain cdkt.io to register. I must create the team "cdkt" and I'll be designated as the owner. Then, I'll be able to invite my coworkers from @cdkt.io to join my "cdkt" team.
+
+## Scenario
+
+- I register as john@cdkt.io.
+- I'm first one of my domain cdkt.io to register.
+- I *must* create the team "cdkt". I'll be designated as the owner.
+- Then, I'll be able to invite my coworkers from @cdkt.io to join my "cdkt" team.
+
+## Structure
 
 Your project will consist in 2 sub-projects:
 
