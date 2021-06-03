@@ -16,7 +16,7 @@ eg: I register as john@cdkt.io. I'm first one of my domain cdkt.io to register. 
 
 Your project will consist in 2 sub-projects:
 
-1/ an API (no Spring) and its database (PostgreSQL)
+1/ an API and its database (PostgreSQL)
 2/ a front-end (Vue or React)
 
 ### I should be able to
@@ -30,7 +30,7 @@ Your project will consist in 2 sub-projects:
 ### Tech orientation
 
 - Do NOT use Maven
-- Do NOT use Spring*
+- Do NOT use Spring*. You can use Micronaut (this is what we're using for our customer API), or Scala.
 - Use JDK 11+ or more. (no JDK 8)
 - You can do REST API or GraphQL
 
