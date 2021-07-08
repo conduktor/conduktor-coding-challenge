@@ -28,8 +28,11 @@ You must create a front-end project using:
 - We should be able to login/logout using an Auth0 integration, [checkout their documentation](https://auth0.com/docs/quickstart/spa/react/01-login), this will automatically provide the front-end a JWT with user information
 - Display the name/picture from the JWT token in the application (with a logout menu)
 - I should be able to create clusters & topics (see below for the contract)
-- I should be able to switch the locale in the application (english/any other language) without screen full-refresh
-- If I open the application in multiple tabs: they must be synchronized (if I create a resource on tab A, I should see it on tab B; if I logout on tab A, it should logout my on tab B etc.)
+- I should be able to switch the locale in the application without screen full-refresh
+  - eg: English, French (or your native language!)
+- If I open the application in multiple tabs: they must be synchronized
+  - eg1: if I create a resource on tab A, I should see it on tab B
+  - eg2: if I logout on tab A, it should logout my on tab B
 
 ## Contract sample
 
