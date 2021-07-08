@@ -33,7 +33,10 @@ You must create a front-end project using:
 
 ## Requirements
 
-- We should be able to login/logout using an Auth0 integration, [checkout their documentation](https://auth0.com/docs/quickstart/spa/react/01-login), this will automatically provide the front-end a JWT with user information
+- We should be able to login/logout using an Auth0 integration
+  - [checkout their documentation](https://auth0.com/docs/quickstart/spa/react/01-login) for the integration
+  - We provide you a sandbox (see below)
+  - This will automatically provide the front-end a JWT with user information
 - Display the name/picture from the JWT token in the application (with a logout menu)
 - I should be able to create clusters & topics (see below for the contract)
 - I should be able to switch the locale in the application without screen full-refresh
@@ -75,3 +78,5 @@ Don't hesitate to ask us if you need something here.
 Time estimated: it depends on you!
 
 It's really the "job" at Conduktor, just think that it's your onboarding. :-)
+
+Before submitting your challenge, make sure all the above requirements are okay or find a good reason why it's not. :-)
