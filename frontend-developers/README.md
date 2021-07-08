@@ -26,10 +26,10 @@ This is a Front-end challenge: it should be friendly to use.
 
 You must create a front-end project using:
 
-- React
-- TypeScript only, we do NOT use JavaScript at Conduktor
-- We'll provide you an OpenAPI specification to work with (see below)
+- React v17+
+- TypeScript 4.3+ (⚠️ we do NOT code using JavaScript)
 - Ant Design (or better) for the UI components
+- We'll provide you an OpenAPI specification to work with (to simulate a backend, see below)
 
 ## Requirements
 
