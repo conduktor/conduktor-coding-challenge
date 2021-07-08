@@ -47,22 +47,16 @@ You must create a front-end project using:
 
 ## Contract sample
 
-Here is a sample of the OpenAPI contract to get you an idea:
+Here is a simple view of the [OpenAPI](openapi.yaml) you have to work with:
 
 - `GET /clusters`: list the clusters
 - `POST /clusters`: create a cluster
 - `GET /clusters/:clusterId/topics`: list the topics of the cluster
 - `POST /clusters/:clusterId/topics`: create a topic in this cluster
 - `GET /clusters/:clusterId/topics/:topic/data`: you should generate random data here (to simulate a backend)
-  - Websockets or SSE, these are real-time data!
+  - SSE, these are real-time data!
 
-We don't provide any backend server, you only have the OpenAPI specification to work with.
-
-## Models
-
-- A cluster is an ID + a name and has a collection of topics
-- A topic is a name and has data
-- A data is a key + a value
+We don't provide any backend server, you will have to mock the OpenAPI.
 
 ## Auth0 Authentication
 
