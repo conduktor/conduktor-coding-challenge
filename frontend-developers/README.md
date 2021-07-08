@@ -8,13 +8,21 @@ More details: https://www.conduktor.io/jobs/
 
 # The Challenge
 
+Conduktor is a software company centered around Apache Kafka.
+Apache Kafka is _basically_ a message broker. It forms a cluster composed of many topics containing data.
+
+Conduktor is making the work and monitoring of Apache Kafka more visible and friendly.
+
 ## Build a mini-Conduktor
 
-We'd like you to create a tiny version of our software where we could register/login (using Auth0), create/list clusters and topics, and fetch data in real-time.
+We'd like you to create a tiny version of our software where we could:
+- register/login (using Auth0, see below)
+- create/list clusters and their topics
+- fetch data from topics (in "real-time")
 
 This is a Front-end challenge: it should be friendly to use.
 
-## Structure
+## The project
 
 You must create a front-end project using:
 
