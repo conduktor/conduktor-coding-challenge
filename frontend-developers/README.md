@@ -6,6 +6,8 @@ We're hiring full-remote Front-end Developers experimented with React and Typesc
 
 More details: https://www.conduktor.io/jobs/
 
+> Fork this repository privately, then send the link to jobs@conduktor.io for us to discuss!
+
 # The Challenge
 
 Conduktor is a software company centered around Apache Kafka.
@@ -74,3 +76,5 @@ Time estimated: it depends on you!
 It's really the "job" at Conduktor, just think that it's your onboarding. :-)
 
 Before submitting your challenge, make sure all the above requirements are okay or find a good reason why it's not. :-)
+
+> Fork this repository privately, then send the link to jobs@conduktor.io for us to discuss!
