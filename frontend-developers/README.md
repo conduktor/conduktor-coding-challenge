@@ -13,16 +13,16 @@ Apache Kafka is _basically_ a message broker. It forms a _cluster_ composed of m
 
 Conduktor is making the work and monitoring of Apache Kafka more visible and friendly.
 
-## Build a mini-Conduktor
+## Goal: Build a mini-Conduktor
 
 We'd like you to create a tiny version of our software where we could:
-- register/login (using Auth0, see below)
+- register/login
 - create/list clusters and their topics
 - fetch data from topics (in "real-time")
 
 This is a Front-end challenge: it should be friendly to use.
 
-## The project
+## Technical Details
 
 You must create a front-end project using:
 
@@ -31,7 +31,7 @@ You must create a front-end project using:
 - Ant Design (or better) for the UI components
 - We provide you an OpenAPI specification to simulate the backend, see below
 
-## Requirements
+## Business Requirements
 
 - We should be able to login/logout using an Auth0 integration
   - We provide you a sandbox (see below)
@@ -55,7 +55,7 @@ Here is an overview of the [OpenAPI](openapi.yaml) you have to work with:
 
 We don't provide you any backend server, you can mock using the OpenAPI specification.
 
-## Login using Auth0
+## Handle the Login part using Auth0
 
 To easily integrate auth0, [checkout their documentation and example](https://auth0.com/docs/quickstart/spa/react/01-login).
 
