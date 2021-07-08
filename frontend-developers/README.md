@@ -46,6 +46,22 @@ Here is a sample of the OpenAPI contract to get you an idea:
 
 We don't provide any backend server, you only have the OpenAPI specification to work with.
 
+## Models
+
+- A cluster is an ID + a name and has a collection of topics
+- A topic is a name and has data
+- A data is a key + a value
+
+## Auth0 Authentication
+
+You can create your own Auth0 sandbox or use this one for the coding challenge:
+
+- Domain: `conduktor-coding-challenge.eu.auth0.com`
+- ClientID: `2BczaMeSZzUhOfRfDOFG5QXcfaXQUjmE`
+- Callback & Logout URL we've configured: `http://localhost:8000`
+
+Don't hesitate to ask us if you need something here.
+
 ## How long?
 
 Time estimated: it depends on you!
