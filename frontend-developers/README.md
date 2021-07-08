@@ -29,12 +29,11 @@ You must create a front-end project using:
 - React v17+
 - TypeScript 4.3+ (⚠️ we do NOT code using JavaScript)
 - Ant Design (or better) for the UI components
-- We'll provide you an OpenAPI specification to work with (to simulate a backend, see below)
+- We provide you an OpenAPI specification to simulate the backend, see below
 
 ## Requirements
 
 - We should be able to login/logout using an Auth0 integration
-  - [checkout their documentation](https://auth0.com/docs/quickstart/spa/react/01-login) for the integration
   - We provide you a sandbox (see below)
   - This will automatically provide the front-end a JWT with user information
 - Display the name/picture from the JWT token in the application (with a logout menu)
@@ -45,20 +44,20 @@ You must create a front-end project using:
   - eg1: if I create a resource on tab A, I should see it on tab B
   - eg2: if I logout on tab A, it should logout on tab B
 
-## Contract sample
+## The OpenAPI specification to use for this challenge
 
-Here is a simple view of the [OpenAPI](openapi.yaml) you have to work with:
+Here is an overview of the [OpenAPI](openapi.yaml) you have to work with:
 
-- `GET /clusters`: list the clusters
-- `POST /clusters`: create a cluster
-- `GET /clusters/:clusterId/topics`: list the topics of the cluster
-- `POST /clusters/:clusterId/topics`: create a topic in this cluster
-- `GET /clusters/:clusterId/topics/:topic/data`: you should generate random data here (to simulate a backend)
-  - SSE, these are real-time data!
+- `GET|POST /clusters`: list and create clusters
+- `GET|POST /clusters/:clusterId/topics`: list and create topics
+- `GET /clusters/:clusterId/topics/:topic/data`: get _real-time_ data from a topic
+  - The contract uses SSE, because these are real-time data emit by Apache Kafka
 
-We don't provide any backend server, you will have to mock the OpenAPI.
+We don't provide you any backend server, you can mock using the OpenAPI specification.
 
-## Auth0 Authentication
+## Login using Auth0
+
+To easily integrate auth0, [checkout their documentation and example](https://auth0.com/docs/quickstart/spa/react/01-login).
 
 You can create your own Auth0 sandbox or use this one for the coding challenge:
 
