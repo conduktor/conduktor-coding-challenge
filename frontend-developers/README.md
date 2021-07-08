@@ -50,7 +50,7 @@ Here is an overview of the [OpenAPI](openapi.yaml) you have to work with:
 
 - `GET|POST /clusters`: list and create clusters
 - `GET|POST /clusters/:clusterId/topics`: list and create topics
-- `GET /clusters/:clusterId/topics/:topic/data`: get _real-time_ data from a topic
+- `GET      /clusters/:clusterId/topics/:topic/data`: get _real-time_ data from a topic
   - The contract uses SSE, because these are real-time data emit by Apache Kafka
 
 We don't provide you any backend server, you can mock using the OpenAPI specification.
