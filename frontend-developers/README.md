@@ -32,7 +32,7 @@ You must create a front-end project using:
   - eg: English, French (or your native language!)
 - If I open the application in multiple tabs: they must be synchronized
   - eg1: if I create a resource on tab A, I should see it on tab B
-  - eg2: if I logout on tab A, it should logout my on tab B
+  - eg2: if I logout on tab A, it should logout on tab B
 
 ## Contract sample
 
