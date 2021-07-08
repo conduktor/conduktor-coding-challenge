@@ -9,7 +9,7 @@ More details: https://www.conduktor.io/jobs/
 # The Challenge
 
 Conduktor is a software company centered around Apache Kafka.
-Apache Kafka is _basically_ a message broker. It forms a cluster composed of many topics containing data.
+Apache Kafka is _basically_ a message broker. It forms a _cluster_ composed of many _topics_ containing _data_.
 
 Conduktor is making the work and monitoring of Apache Kafka more visible and friendly.
 
@@ -27,8 +27,8 @@ This is a Front-end challenge: it should be friendly to use.
 You must create a front-end project using:
 
 - React
-- TypeScript
-- We'll provide you an OpenAPI specification to work with
+- TypeScript only, we do NOT use JavaScript at Conduktor
+- We'll provide you an OpenAPI specification to work with (see below)
 - Ant Design (or better) for the UI components
 
 ## Requirements
