@@ -52,7 +52,7 @@ Here is a sample of the OpenAPI contract to get you an idea:
 - `GET /clusters`: list the clusters
 - `POST /clusters`: create a cluster
 - `GET /clusters/:clusterId/topics`: list the topics of the cluster
-- `POST /clusters/:clusterId/topics/:topic`: create a topic in this cluster
+- `POST /clusters/:clusterId/topics`: create a topic in this cluster
 - `GET /clusters/:clusterId/topics/:topic/data`: you should generate random data here (to simulate a backend)
   - Websockets or SSE, these are real-time data!
 
