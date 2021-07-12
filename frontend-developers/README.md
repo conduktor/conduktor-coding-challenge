@@ -42,7 +42,7 @@ You must create a front-end project using:
 - I should be able to create clusters & topics (see below for the contract)
 - I should be able to switch the locale in the application without screen full-refresh
   - eg: English, French (or your native language!)
-- If I open the application in multiple tabs: they must be synchronized
+- Bonus: If I open the application in multiple tabs: they must be synchronized
   - eg1: if I create a resource on tab A, I should see it on tab B
   - eg2: if I logout on tab A, it should logout on tab B
 
