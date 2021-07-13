@@ -2,8 +2,6 @@
 
 # We're hiring! 👨‍💻 👩‍💻
 
-> To read if you want to apply: (How our Application process works?)[application-process.md]
-
 Don't hesitate to do the challenges presented here and tell us: jobs@conduktor.io!
 
 We're constantly hiring:
@@ -12,6 +10,12 @@ We're constantly hiring:
 - **Front-end Developers**, experimented with the front-ends technologies (React mostly) with an great interest for smart UI/UX. 
 
 More details about the jobs and the company here: https://www.conduktor.io/jobs/
+
+# The Application Process
+
+Please read this if you want to apply: [How our Application process works?](application-process.md).
+
+This is necessary to ensure your application process will be smooth.
 
 # Software Engineers
 
