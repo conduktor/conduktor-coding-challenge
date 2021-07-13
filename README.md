@@ -1,3 +1,5 @@
+<img src="https://www.conduktor.io/uploads/conduktor.svg" width="256">
+
 # We're hiring! 👨‍💻 👩‍💻
 
 Don't hesitate to do the challenges presented here and tell us: jobs@conduktor.io!
