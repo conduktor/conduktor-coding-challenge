@@ -13,7 +13,7 @@ More details: https://www.conduktor.io/jobs/
 Conduktor is a software company centered around Apache Kafka.
 Apache Kafka is _basically_ a message broker. It forms a _cluster_ composed of many _topics_ containing _data_.
 
-Conduktor is simplifying how we work with Apache Kafka and how to monitor the systems more visible and more user-friendly.
+Conduktor is simplifying how we work with Apache Kafka and how to monitor the systems more easily and more user-friendly.
 
 ## Goal: Build a mini-Conduktor
 
