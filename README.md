@@ -2,6 +2,8 @@
 
 # We're hiring! 👨‍💻 👩‍💻
 
+> To read if you want to apply: (How our Application process works?)[application-process.md]
+
 Don't hesitate to do the challenges presented here and tell us: jobs@conduktor.io!
 
 We're constantly hiring:
