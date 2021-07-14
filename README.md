@@ -4,10 +4,11 @@
 
 Don't hesitate to do the challenges presented here and tell us: jobs@conduktor.io!
 
-We're constantly hiring:
+We're hiring:
 
 - **Software Engineers**, familiar with the Apache Kafka ecosystem (as Developers & Ops) and experimented with the JVM (Kotlin/Scala, a bit of Java), with an interest for smart UI/UX.
-- **Front-end Developers**, experimented with the front-ends technologies (React mostly) with an great interest for smart UI/UX. 
+- **Front-end Developers**, experimented with the front-ends technologies (React mostly) with a great interest for smart UI/UX.
+- **DevOps & Cloud Engineer**, experimented with Terraform, CI/CD, GCP and AWS.
 
 More details about the jobs and the company here: https://www.conduktor.io/jobs/
 
@@ -24,3 +25,7 @@ See [Software Engineers](software-engineers/README.md)
 # Front-end Developers
 
 See [Front-end Developers](frontend-developers/README.md)
+
+# DevOps & Cloud Engineer
+
+See [DevOps & Cloud Engineer](https://apply.workable.com/conduktor/j/2E1B4DA1E0/)

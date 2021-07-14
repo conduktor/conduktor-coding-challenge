@@ -4,11 +4,17 @@ Don't hesitate to do the challenges presented here and tell us: jobs@conduktor.i
 
 We're hiring full-remote Front-end Developers experimented with React and Typescript, with an interest in beautiful UIs, able to think as a user (UX), and used to work with backend teams (Scala here).
 
-More details: https://www.conduktor.io/jobs/
+# 1. The Job requirements
 
-> Fork this repository privately, then send the link to jobs@conduktor.io for us to discuss!
+Please confirm that you fit our position: [Front-End Developer](https://apply.workable.com/conduktor/j/5F3415C656/).
 
-# The Challenge
+# 2. The Application Process
+
+Please read this if you want to apply: [How our Application process works?](../application-process.md).
+
+This is necessary to ensure your application process will be smooth.
+
+# 3. The Challenge
 
 Conduktor is a software company centered around Apache Kafka.
 Apache Kafka is _basically_ a message broker. It forms a _cluster_ composed of many _topics_ containing _data_.
@@ -22,7 +28,7 @@ We'd like you to create a tiny version of our software where we could:
 - create/list clusters and their topics
 - fetch data from topics (in "real-time")
 
-This is a Front-end challenge: it should be friendly to use.
+This is a Front-end challenge: it should be user-friendly to use.
 
 ## Technical Details
 

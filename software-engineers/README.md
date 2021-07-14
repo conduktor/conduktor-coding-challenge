@@ -2,11 +2,21 @@
 
 Don't hesitate to do the challenges presented here and tell us: jobs@conduktor.io!
 
-We're hiring Software Engineers familiar with the Apache Kafka ecosystem (as Developers & Ops) and the JVM (Kotlin/Scala/ZIO), with an interest for smart UI/UX. More details: https://www.conduktor.io/jobs/
+We're hiring Software Engineers familiar with the Apache Kafka ecosystem (as Developers & Ops) and the JVM (Kotlin/Scala/ZIO), with an interest for smart UI/UX.
 
-# The Challenge
+# 1. The Job requirements
 
-## 1/ Build a mini-Conduktor
+Please confirm that you fit our position: [Software Engineers](https://apply.workable.com/conduktor/j/A7E3C47339/).
+
+# 2. The Application Process
+
+Please read this if you want to apply: [How our Application process works?](../application-process.md).
+
+This is necessary to ensure your application process will be smooth.
+
+# 3. The Challenge
+
+## Build a mini-Conduktor
 
 Write an application that displays records flowing from a topic I've selected.
 
@@ -42,7 +52,7 @@ Time estimated: it depends on you!
 
 It's really the "job" at Conduktor, just think that it's your onboarding. :-)
 
-## 2/ Comment the code
+## Comment the code
 
 Review the [code-comments](https://github.com/conduktor/conduktor-coding-challenge/tree/main/software-engineers/code-comments) and tell us what do you think of them.
 
@@ -50,8 +60,8 @@ Review the [code-comments](https://github.com/conduktor/conduktor-coding-challen
 
 Here are additional stuff you should be using with Kotlin (we are!):
 
-- [coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html) and not basic `Thread`s to work with async stuff. It provides a more granular level, works with Fibers, can scale massively without impact, provide automatic supervision (parent-child relationships), etc.
-- [`Flow<>`](https://kotlinlang.org/docs/reference/coroutines/flow.html) to make continuous data processing easier to code (like RxJava, Reactor, Akka Streams, ZIO Streams etc.)
+- [coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html) not basic `Thread`s to work with async stuff. It provides a more granular level, works with Fibers, can scale massively without impact, provide automatic supervision (parent-child relationships), etc.
+- [`Flow`](https://kotlinlang.org/docs/reference/coroutines/flow.html) to make continuous data processing easier to code (like RxJava, Reactor, Akka Streams, ZIO Streams etc.)
 - [Arrow kt](https://arrow-kt.io/) to work with more functional programming data structures (Either, Validated, traverse...)
 
 
