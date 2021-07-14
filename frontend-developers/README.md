@@ -17,9 +17,7 @@ This is necessary to ensure your application process will be smooth.
 # 3. The Challenge
 
 Conduktor is a software company centered around Apache Kafka.
-Apache Kafka is _basically_ a message broker. It forms a _cluster_ composed of many _topics_ containing _data_.
-
-Conduktor is simplifying how we work with Apache Kafka and how to monitor the systems more easily and more user-friendly.
+Apache Kafka is _basically_ a message broker. It forms a _cluster_ composed of many _topics_ containing _data_. Any application can send data to Apache Kafka, and other applications can "listen" to these incoming data.
 
 ## Business requirements: Build a mini-Conduktor
 
