@@ -12,7 +12,7 @@ This document describes the Conduktor hiring process from the point of view of t
 
 - We'll try our best to update you quickly. We're sorry if we don't reply in a timely manner. In any case, feel free to reach out to us at any time via jobs@conduktor.io.
 
-- If your application receives positive feedback from our initial screen, we'll invite you to video call with our CTO or CEO, according to the position you're looking for.
+- If your application receives positive feedback from our initial screen, we'll invite you to video call with the hiring manager, according to the position you're looking for.
 
 ### The first interview
 
@@ -44,15 +44,15 @@ This is a general discussion that can last between 15 min to 1 hour.
 
 - Engineering candidates who successfully did the coding challenge will be invited to a quick interview remotely with various members of the engineering team.
 
-- Meeting with the CEO (30min): to get to know the developer better on a non-technical background 
+- Meeting with the CEO or CTO (30min): based on their technical background or not. The purpose is to get to know the candidate better 
 
-- This is the last step during which it's decided if the developer will receive an offer or not.
+- This is the last step during which it's decided if the candidate will receive an offer or not.
 
 - In the case of rejection, the candidate will be notified in the following days after the interview. This will be a constructive discussion giving the candidate as much insight as possible.
 
 ### Offer
 
-- The offer is sent by our CTO or CEO once a decision to hire has been made by the team
+- The offer is sent by the hiring manager, CTO or CEO, once a decision to hire has been made by the team
 
 - The candidate has no concrete time deadline to accept/reject the offer, and we are happy to have another call to discuss any questions or doubts the candidate may have. In cases where we have a limited number of open positions for a role, and a larger number of people we'd like to make an offer to, a time limit is given.
 
