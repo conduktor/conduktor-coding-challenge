@@ -40,7 +40,7 @@ You must create a front-end project using:
 
 ## The OpenAPI specification to use for this challenge
 
-[Click here to get the OpenAPI](openapi.yaml) you have to work with (just mock it), and below its quick overview:
+Check the [openapi.yaml](openapi.yaml) you have to work with (just mock it), and below its quick overview:
 
 - GET and POST `/clusters`: list and create clusters
 - GET and POST `/clusters/:clusterId/topics`: list and create topics
