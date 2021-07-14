@@ -20,11 +20,11 @@ This is necessary to ensure your application process will be smooth.
 
 # Software Engineers
 
-See [Software Engineers](software-engineers/README.md)
+See [Software Engineers](software-engineers)
 
 # Front-end Developers
 
-See [Front-end Developers](frontend-developers/README.md)
+See [Front-end Developers](frontend-developers)
 
 # DevOps & Cloud Engineer
 
