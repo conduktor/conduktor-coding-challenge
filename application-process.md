@@ -8,6 +8,14 @@ This document describes the Conduktor hiring process from the point of view of t
 
 - If there isn't a role that fits, but you're still interested in working with us, you can email us at jobs@conduktor.io with your CV (or your GitHub account for developers) and a small intro of yourself.
 
+### Global Employment
+
+We are a USA-based company: to hire you, we are using https://www.oysterhr.com/ to hire employees in their own country. 
+
+This allow us to have built-in legal and tax compliance, including automatic deductions and tax withholdings, a local HR and legal expertise so we can provide an normal employee experience, anywhere in the world.
+
+You will be hired through OysterHR on behalf on Conduktor Inc. That does not change a thing for you, you will be a employee in your country with all the advantages this provide.
+
 ### Screening
 
 - We'll try our best to update you quickly. We're sorry if we don't reply in a timely manner. In any case, feel free to reach out to us at any time via jobs@conduktor.io.
