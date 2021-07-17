@@ -18,17 +18,15 @@ This is necessary to ensure your application process will be smooth.
 
 ## Build a mini-Conduktor
 
-Write an application that displays records flowing from a topic I've selected.
+Write an application that displays records flowing in *real-time* from a topic.
 
-Your project will consist in 2 sub-projects:
-1/ a module for the application itself with its "view" (in Kotlin or Scala)
-2/ a module for Apache Kafka interactions in Scala.
+> Today, Conduktor is a heavy-weight client—in Kotlin/Scala without HTTP API. We ask you to follow the same pattern for this challenge because this is the current implementation. We have planned to move to a React-based application + Scala API but we're not there yet. Still, if you know React, you can also write a Front-end + a Scala API (http4s/ZIO) instead of using JavaFX.
 
-- Use sbt or gradle
-- For the view, write a [tornadofx](https://github.com/edvin/tornadofx) app in Kotlin OR a [scalafx](https://www.scalafx.org/) app in Scala
-- Write a Scala module using ZIO to deal with Apache Kafka (list topics, consume records...)
+- a module for the UI: in Kotlin or Scala
+  - Use [tornadofx](https://github.com/edvin/tornadofx) (Kotlin) OR [scalafx](https://www.scalafx.org/) (Scala)
+- a Scala/ZIO module to deal with Apache Kafka (connect, list topics, consume records...)
 
-If you're using Kotlin for the view, you must deal with the interop ZIO <-> Coroutine and ZStreams <-> Flow (the application should display the records in *real-time*, this is important)
+If you're using Kotlin for the view, you must deal with the interop ZIO <-> Coroutine and ZStreams <-> Flow.
 
 ### I should be able to
 
@@ -41,8 +39,8 @@ If you're using Kotlin for the view, you must deal with the interop ZIO <-> Coro
 
 ### Tech orientation
 
-- Do not use Maven
-- Use JDK 11+ or more. (no JDK 8) (you may use the branch `jdk10` of tornadofx if using it)
+- Do not use Maven, only sbt or gradle
+- Use JDK 11+ or more. (no JDK 8) (you may use the branch `jdk10` of tornadofx if you're using it)
 - JavaFX: Do NOT use FXML but plain code for views.
 - Apache Kafka: Do NOT use consumer groups but custom partition assignments (no group id should be used)
 
@@ -58,10 +56,10 @@ Review the [code-comments](https://github.com/conduktor/conduktor-coding-challen
 
 # If you use Kotlin
 
-Here are additional stuff you should be using with Kotlin (we are!):
+Here are additional stuff you should be using with Kotlin:
 
-- [coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html) not basic `Thread`s to work with async stuff. It provides a more granular level, works with Fibers, can scale massively without impact, provide automatic supervision (parent-child relationships), etc.
-- [`Flow`](https://kotlinlang.org/docs/reference/coroutines/flow.html) to make continuous data processing easier to code (like RxJava, Reactor, Akka Streams, ZIO Streams etc.)
-- [Arrow kt](https://arrow-kt.io/) to work with more functional programming data structures (Either, Validated, traverse...)
+- [Coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html): don't use basic `Thread`s to do async stuff. Coroutine are like Fibers, can scale massively without impact and provide automatic supervision (parent-child relationships). This is idiomatic in Kotlin.
+- [Flow](https://kotlinlang.org/docs/reference/coroutines/flow.html): equivalent of RxJava, Reactor, Akka Streams, ZIO Streams etc. in Kotlin
+- [Arrow](https://arrow-kt.io/): the Functional companion to Kotlin's Standard Library (Either, Validated, traverse, etc.)
 
 
