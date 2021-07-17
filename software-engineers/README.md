@@ -22,11 +22,10 @@ Write an application that displays records flowing in *real-time* from a topic.
 
 > Today, Conduktor is a heavy-weight client—in Kotlin/Scala without HTTP API. We ask you to follow the same pattern for this challenge because this is the current implementation. We have planned to move to a React-based application + Scala API but we're not there yet. Still, if you know React, you can also write a Front-end + a Scala API (http4s/ZIO) instead of using JavaFX.
 
-- a module for the UI: in Kotlin or Scala
-  - Use [tornadofx](https://github.com/edvin/tornadofx) (Kotlin) OR [scalafx](https://www.scalafx.org/) (Scala)
+- a module for the UI
+  - in Kotlin (using [tornadofx](https://github.com/edvin/tornadofx), + you must deal with the interop ZIO <-> Coroutine and ZStreams <-> Flow)
+  - or in Scala (using [scalafx](https://www.scalafx.org/))
 - a Scala/ZIO module to deal with Apache Kafka (connect, list topics, consume records...)
-
-If you're using Kotlin for the view, you must deal with the interop ZIO <-> Coroutine and ZStreams <-> Flow.
 
 ### I should be able to
 
@@ -34,15 +33,15 @@ If you're using Kotlin for the view, you must deal with the interop ZIO <-> Coro
 - add additional properties to pass to the KafkaAdmin & KafkaConsumer (security etc.)
 - view all the topics
 - select a topic and consume its data from the beginning
-- see the records flowing without the UI to be stuck
+- see the records flowing without the UI to be stuck (and in real-time)
 - stop the consumption, select another topic, then consume it etc.
 
 ### Tech orientation
 
-- Do not use Maven, only sbt or gradle
-- Use JDK 11+ or more. (no JDK 8) (you may use the branch `jdk10` of tornadofx if you're using it)
-- JavaFX: Do NOT use FXML but plain code for views.
+- Only sbt or gradle, no Maven
+- Use JDK 11+ or more. (no JDK 8 please) (you may use the branch `jdk10` of tornadofx if you're using it)
 - Apache Kafka: Do NOT use consumer groups but custom partition assignments (no group id should be used)
+- JavaFX: Do NOT use FXML but plain code for views.
 
 ### How long?
 
@@ -58,7 +57,7 @@ Review the [code-comments](https://github.com/conduktor/conduktor-coding-challen
 
 Here are additional stuff you should be using with Kotlin:
 
-- [Coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html): don't use basic `Thread`s to do async stuff. Coroutine are like Fibers, can scale massively without impact and provide automatic supervision (parent-child relationships). This is idiomatic in Kotlin.
+- [Coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html): don't use Threads to do async stuff. Coroutine are like Fibers, can scale massively without impact and provide automatic supervision (parent-child relationships).
 - [Flow](https://kotlinlang.org/docs/reference/coroutines/flow.html): equivalent of RxJava, Reactor, Akka Streams, ZIO Streams etc. in Kotlin
 - [Arrow](https://arrow-kt.io/): the Functional companion to Kotlin's Standard Library (Either, Validated, traverse, etc.)
 
