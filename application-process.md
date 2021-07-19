@@ -12,27 +12,27 @@ This document describes the Conduktor hiring process from the point of view of t
 
 We are a USA-based company: to hire you, we are using https://www.oysterhr.com/ to hire employees in their own country. 
 
-This allow us to have built-in legal and tax compliance, including automatic deductions and tax withholdings, a local HR and legal expertise so we can provide an normal employee experience, anywhere in the world.
+This allows us to have built-in legal and tax compliance, including automatic deductions and tax withholdings, a local HR and legal expertise so we can provide a normal employee experience, anywhere in the world.
 
-You will be hired through OysterHR on behalf on Conduktor Inc. That does not change a thing for you, you will be a employee in your country with all the advantages this provide.
+You will be hired through OysterHR on behalf of Conduktor Inc. That does not change a thing for you, you will be an employee in your country with all the advantages this provides.
 
 ### Screening
 
 - We'll try our best to update you quickly. We're sorry if we don't reply in a timely manner. In any case, feel free to reach out to us at any time via jobs@conduktor.io.
 
-- If your application receives positive feedback from our initial screen, we'll invite you to video call with the hiring manager, according to the position you're looking for.
+- If your application receives positive feedback from our initial screen, we'll invite you to a video call with the hiring manager, according to the position you're looking for.
 
 ### The first interview
 
 This is a general discussion that can last between 15 min to 1 hour.
 
-- This is to allow us to get to know your background and your experience, as well as allowing you to get to know Conduktor the company better. It's expected you have already done some basic research about Conduktor and has some specific questions about the role and/or the company to be expressed during the call.
+- This is to allow us to get to know your background and your experience, as well as allowing you to get to know Conduktor the company better. It's expected you have already done some basic research about Conduktor and have some specific questions about the role and/or the company to be expressed during the call.
   
-- We may have in-depth conversation about your experience, the role within the team, how the team works and your future tasks and responsibilities.
+- We may have an in-depth conversation about your experience, the role within the team, how the team works, and your future tasks and responsibilities.
 
 - In all engineering roles, we will ask you to do a coding challenge after this call.
 
-- **IMPORTANT:** All calls require a good audio quality and a working camera. You will need good internet connectivity and a good audio setup. Note that without ensuring a good setup, we will not be able to move on with the remote interview process.
+- **IMPORTANT:** All calls require good audio quality and a working camera. You will need good internet connectivity and a good audio setup. Note that without ensuring a good setup, we will not be able to move on with the remote interview process.
 
 ### Coding Challenge (Engineering) / Assignment (Non-Engineering)
 
