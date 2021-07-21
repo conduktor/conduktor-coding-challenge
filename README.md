@@ -29,3 +29,7 @@ See [Front-end Developers](frontend-developers)
 # DevOps & Cloud Engineer
 
 See [DevOps & Cloud Engineer](https://apply.workable.com/conduktor/j/2E1B4DA1E0/)
+
+# UI/UX Designer
+
+See [UI/UX Designer](ui-ux-designers)
