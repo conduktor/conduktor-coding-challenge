@@ -52,7 +52,7 @@ This is a general discussion that can last between 15 min to 1 hour.
 
 - Engineering candidates who successfully did the coding challenge will be invited to a quick interview remotely with various members of the engineering team.
 
-- Meeting with the CEO or CTO (30min): based on their technical background or not. The purpose is to get to know the candidate better 
+- Meeting with the CEO or CTO (30min): based on their technical background or not. The purpose is to get to know the candidate better and understand if they fit our values (please check them on https://www.conduktor.io/jobs/)
 
 - This is the last step during which it's decided if the candidate will receive an offer or not.
 
