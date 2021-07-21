@@ -1,4 +1,4 @@
-# We're hiring Front-end Developers! 👨‍💻 👩‍💻
+# We're hiring a UI/UX Designer! 👨‍💻 👩‍💻
 
 Don't hesitate to do the challenges presented here and tell us: jobs@conduktor.io!
 
