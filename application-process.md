@@ -16,6 +16,10 @@ This allows us to have built-in legal and tax compliance, including automatic de
 
 You will be hired through OysterHR on behalf of Conduktor Inc. That does not change a thing for you, you will be an employee in your country with all the advantages this provides.
 
+### Health Insurance
+
+We offer a worldwide premium Health Insurance to our employees via Safety Wing.
+
 ### Screening
 
 - We'll try our best to update you quickly. We're sorry if we don't reply in a timely manner. In any case, feel free to reach out to us at any time via jobs@conduktor.io.
