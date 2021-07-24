@@ -9,6 +9,7 @@ We're hiring:
 - **Software Scala & Kafka Engineers**, familiar with the Apache Kafka ecosystem (as Developers & Ops) and experimented with the JVM (we do Scala/ZIO, but still have some Kotlin and a tiny bit of Java), with an interest for smart UI/UX (this is not a Data Engineering position).
 - **Front-end Developers**, experimented with the front-ends technologies (React mostly) with a great interest for smart UI/UX.
 - **DevOps & Cloud Engineer**, experimented with Terraform, CI/CD, GCP and AWS.
+- **UI/UX Designer**, experimented with B2B developers products, in a tech company
 
 More details about the jobs and the company here: https://www.conduktor.io/jobs/
 
