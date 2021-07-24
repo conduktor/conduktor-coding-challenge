@@ -20,7 +20,7 @@ This is necessary to ensure your application process will be smooth.
 
 Write an application that displays records flowing in *real-time* from a topic.
 
-> Today, Conduktor is a heavy-weight client—in Kotlin/Scala without HTTP API. We ask you to follow the same pattern for this challenge because this is the current implementation. We have planned to move to a React-based application + Scala API but it's still in progress and you will be part of this effort. Still, if you know React, you can also write a Front-end + a Scala API (http4s/ZIO) instead of using JavaFX.
+> Today, Conduktor is a rich (heavy/thick) client written in Kotlin & Scala without HTTP API. We ask you to follow the same pattern for this challenge because this is the current implementation. We have planned to move to a React-based application + Scala API but it's still in progress and you will be part of this effort. Still, if you know React, you can also write a Front-end + a Scala API (http4s/ZIO) instead of using JavaFX.
 
 - a module for the UI
   - in Kotlin (using [tornadofx](https://github.com/edvin/tornadofx), + you must deal with the interop ZIO <-> Coroutine and ZStreams <-> Flow)
