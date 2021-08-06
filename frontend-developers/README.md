@@ -29,6 +29,8 @@ We'd like you to create a tiny version of our software where we could:
 
 This is a Front-end challenge: it should be user-friendly to use.
 
+💡 You can take inspiration from our existing design (conduktor.io).
+
 ## Technical Details
 
 You must create a front-end project using:
