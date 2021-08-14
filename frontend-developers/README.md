@@ -20,14 +20,14 @@ Create a SPA where we can:
 - display our identity (name/photo) in the application (from the JWT)
 - create/list topics
 - consume data from a topic
-- switch the Locale of the application without screen full-refresh (eg: English + French or your native language!)
+- switch the Locale of the application (using React Context)
 
 ## Technical requirements
 
 - React v17+
 - TypeScript 4.3+ (no JavaScript)
 - Ant Design
-- To fetch the topics and the data, build a mock rest API online
+- To fetch the topics and the data, build a mock rest API online (to use Axios and React hooks)
 
 ## Design Inspiration
 
