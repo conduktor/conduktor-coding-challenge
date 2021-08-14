@@ -4,17 +4,10 @@ Don't hesitate to do the challenges presented here and tell us: jobs@conduktor.i
 
 We're hiring full-remote Front-end Developers experimented with React and Typescript, with an interest in beautiful UIs, able to think as a user (UX), and used to work with backend teams (Scala here).
 
-# 1. The Job requirements
+- Job description to read: [Front-End Developer](https://apply.workable.com/conduktor/j/5F3415C656/).
+- Please read this if you want to apply: [How our Application process works?](../application-process.md). This is necessary to ensure your application process will be smooth.
 
-Please confirm that you fit our position: [Front-End Developer](https://apply.workable.com/conduktor/j/5F3415C656/).
-
-# 2. The Application Process
-
-Please read this if you want to apply: [How our Application process works?](../application-process.md).
-
-This is necessary to ensure your application process will be smooth.
-
-# 3. The Challenge
+# The Challenge
 
 Conduktor is a software company centered around Apache Kafka.
 Apache Kafka is _basically_ a message broker. It has _topics_ containing _data_. Any application can send data to Apache Kafka, and other applications can "listen" to these incoming data.
@@ -29,18 +22,18 @@ Create a SPA where we can:
 - consume data from a topic
 - switch the Locale of the application without screen full-refresh (eg: English + French or your native language!)
 
-## Inspiration
-
-This can help you visualize:
-
-<img src="https://user-images.githubusercontent.com/3936459/129449736-1f953556-30e9-44af-b753-fab8806fde69.png" width=500 />
-
 ## Technical requirements
 
 - React v17+
 - TypeScript 4.3+ (no JavaScript)
 - Ant Design
 - To fetch the topics and the data, build a mock rest API online
+
+## Design Inspiration
+
+This can help you visualize:
+
+<img src="https://user-images.githubusercontent.com/3936459/129449736-1f953556-30e9-44af-b753-fab8806fde69.png" width=500 />
 
 ## Handle the Login part using Auth0
 
