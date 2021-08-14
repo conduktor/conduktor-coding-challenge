@@ -26,20 +26,21 @@ Create a SPA where we can:
 - register/login/logout (we provide you an Auth0 sandbox, see below)
 - display our identity (name/photo) in the application (from the JWT)
 - create/list topics
-- consume data from a topic (in "real-time")
+- consume data from a topic
 - switch the Locale of the application without screen full-refresh (eg: English + French or your native language!)
 
-This is a Front-end challenge: it should be user-friendly to use.
+## Inspiration
 
-💡 Inspire you from our existing design (conduktor.io):
+This can help you visualize:
 
-![image](https://user-images.githubusercontent.com/3936459/129449736-1f953556-30e9-44af-b753-fab8806fde69.png)
+<img src="https://user-images.githubusercontent.com/3936459/129449736-1f953556-30e9-44af-b753-fab8806fde69.png" width=500 />
 
 ## Technical requirements
 
 - React v17+
 - TypeScript 4.3+ (no JavaScript)
 - Ant Design
+- To fetch the topics and the data, build a mock rest API online
 
 ## Handle the Login part using Auth0
 
