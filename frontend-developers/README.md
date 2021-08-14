@@ -31,7 +31,7 @@ Create a SPA where we can:
 
 ## Design Inspiration
 
-This can help you visualize:
+Our existing product:
 
 <img src="https://user-images.githubusercontent.com/3936459/129449736-1f953556-30e9-44af-b753-fab8806fde69.png" width=500 />
 
