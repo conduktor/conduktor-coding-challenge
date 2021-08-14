@@ -17,57 +17,45 @@ This is necessary to ensure your application process will be smooth.
 # 3. The Challenge
 
 Conduktor is a software company centered around Apache Kafka.
-Apache Kafka is _basically_ a message broker. It forms a _cluster_ composed of many _topics_ containing _data_. Any application can send data to Apache Kafka, and other applications can "listen" to these incoming data.
+Apache Kafka is _basically_ a message broker. It has _topics_ containing _data_. Any application can send data to Apache Kafka, and other applications can "listen" to these incoming data.
 
-## Business requirements: Build a mini-Conduktor
+## Business requirements: a mini-Conduktor
 
-We'd like you to create a tiny version of our software where we could:
+Create a SPA where we can:
+
 - register/login/logout (we provide you an Auth0 sandbox, see below)
-- display our identity in the application (using the JWT given by Auth0)
-- create/list clusters and their topics
-- fetch (mock) data from topics in "real-time" (SSE)
+- display our identity (name/photo) in the application (from the JWT)
+- create/list topics
+- consume data from a topic (in "real-time")
+- switch the Locale of the application without screen full-refresh (eg: English + French or your native language!)
 
 This is a Front-end challenge: it should be user-friendly to use.
 
-💡 You can take inspiration from our existing design (conduktor.io).
+💡 Inspire you from our existing design (conduktor.io):
 
-## Technical Details
+![image](https://user-images.githubusercontent.com/3936459/129449736-1f953556-30e9-44af-b753-fab8806fde69.png)
 
-You must create a front-end project using:
+## Technical requirements
 
 - React v17+
-- TypeScript 4.3+ (⚠️ we do NOT code using JavaScript)
-- Ant Design (or better) for the UI components
-- We provide you an OpenAPI specification to simulate the backend, see below
-
-## The OpenAPI specification to use for this challenge
-
-Check the [openapi.yaml](openapi.yaml) you have to work with (just mock it), and below its quick overview:
-
-- GET and POST `/clusters`: list and create clusters
-- GET and POST `/clusters/:clusterId/topics`: list and create topics
-- GET `/clusters/:clusterId/topics/:topic/data`: fetch _real-time_ data from a topic (using SSE). Just mock the data randomly.
+- TypeScript 4.3+ (no JavaScript)
+- Ant Design
 
 ## Handle the Login part using Auth0
 
-To manage the login/logout part using Auth0, [follow their documentation and example](https://auth0.com/docs/quickstart/spa/react/01-login).
+You can follow [the official example](https://auth0.com/docs/quickstart/spa/react/01-login).
 You can create your own Auth0 sandbox OR use this one:
 
 - Domain: `conduktor-coding-challenge.eu.auth0.com`
 - ClientID: `2BczaMeSZzUhOfRfDOFG5QXcfaXQUjmE`
 - Callback & Logout URL we've configured: `http://localhost:8000`
 
-Don't hesitate to ask us if you need some more configuration here.
+### Bonus
 
-### Optional
+Synchronize the state if multiple tabs are opened:
 
-In production, we will also ask you to implement these features, so you can give a try:
-
-- I should be able to switch the locale in the application without screen full-refresh
-  - eg: English, French (or your native language!)
-- Extra (will be mandatory in production): If I open the application in multiple tabs: they must be synchronized
-  - eg1: if I create a resource on tab A, I should see it on tab B
-  - eg2: if I logout on tab A, it should logout on tab B
+- eg1: if I logout on tab A, it should logout on tab B
+- eg2: if I create a resource on tab A, I should see it on tab B
   
 ## How long?
 
