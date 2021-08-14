@@ -2,7 +2,7 @@
 
 Don't hesitate to do the challenges presented here and tell us: jobs@conduktor.io!
 
-We're hiring Software Engineers familiar with the Apache Kafka ecosystem (as Developers & Ops) and the JVM (Kotlin/Scala/ZIO), with an interest for smart UI/UX.
+We're hiring Software Engineers familiar with the Apache Kafka ecosystem (as Developers & Ops) and Scala/ZIO.
 
 - Job description to read: [Software Engineers](https://apply.workable.com/conduktor/j/A7E3C47339/).
 - Please read this if you want to apply: [How our Application process works?](../application-process.md). This is necessary to ensure your application process will be smooth.
