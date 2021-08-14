@@ -15,12 +15,15 @@ Conduktor is a software company centered around Apache Kafka.
 
 Write an application that displays records flowing in *real-time* from a topic.
 
-> Today, Conduktor is a rich (heavy/thick) client written in Kotlin & Scala & JavaFX without HTTP API. For this challenge, you can either follow this pattern or if you know React, you can write a Front-end + a Scala API (http4s/ZIO).
+For this challenge, pick one style:
 
-- a module/webapp for the UI
-  - with React if you know
-  - with [tornadofx](https://github.com/edvin/tornadofx) (Kotlin) or [scalafx](https://www.scalafx.org/)
-- a Scala/ZIO module/API to deal with Apache Kafka (connect, list topics, consume records...)
+1/ A rich client composed of 2 modules (as we do today):
+- ui: [tornadofx](https://github.com/edvin/tornadofx) (Kotlin) or [scalafx](https://www.scalafx.org/)
+- kafka: to deal with Apache Kafka (connection, list topics, consume records...) using Scala/ZIO
+
+2/ React + Scala API (where we are going):
+- a webapp for the UI
+- an API to deal with Apache Kafka (connection, list topics, consume records...) using Scala/ZIO/http4s
 
 ### I should be able to
 
