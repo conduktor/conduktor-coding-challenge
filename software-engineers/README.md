@@ -4,28 +4,23 @@ Don't hesitate to do the challenges presented here and tell us: jobs@conduktor.i
 
 We're hiring Software Engineers familiar with the Apache Kafka ecosystem (as Developers & Ops) and the JVM (Kotlin/Scala/ZIO), with an interest for smart UI/UX.
 
-# 1. The Job requirements
+- Job description to read: [Software Engineers](https://apply.workable.com/conduktor/j/A7E3C47339/).
+- Please read this if you want to apply: [How our Application process works?](../application-process.md). This is necessary to ensure your application process will be smooth.
 
-Please confirm that you fit our position: [Software Engineers](https://apply.workable.com/conduktor/j/A7E3C47339/).
+# The Challenge
 
-# 2. The Application Process
+Conduktor is a software company centered around Apache Kafka.
 
-Please read this if you want to apply: [How our Application process works?](../application-process.md).
-
-This is necessary to ensure your application process will be smooth.
-
-# 3. The Challenge
-
-## Build a mini-Conduktor
+## Business requirements: a mini-Conduktor
 
 Write an application that displays records flowing in *real-time* from a topic.
 
-> Today, Conduktor is a rich (heavy/thick) client written in Kotlin & Scala without HTTP API. We ask you to follow the same pattern for this challenge because this is the current implementation. We have planned to move to a React-based application + Scala API but it's still in progress and you will be part of this effort. Still, if you know React, you can also write a Front-end + a Scala API (http4s/ZIO) instead of using JavaFX.
+> Today, Conduktor is a rich (heavy/thick) client written in Kotlin & Scala & JavaFX without HTTP API. For this challenge, you can either follow this pattern or if you know React, you can write a Front-end + a Scala API (http4s/ZIO).
 
-- a module for the UI
-  - in Kotlin (using [tornadofx](https://github.com/edvin/tornadofx), + you must deal with the interop ZIO <-> Coroutine and ZStreams <-> Flow)
-  - or in Scala (using [scalafx](https://www.scalafx.org/))
-- a Scala/ZIO module to deal with Apache Kafka (connect, list topics, consume records...)
+- a module/webapp for the UI
+  - with React if you know
+  - with [tornadofx](https://github.com/edvin/tornadofx) (Kotlin) or [scalafx](https://www.scalafx.org/)
+- a Scala/ZIO module/API to deal with Apache Kafka (connect, list topics, consume records...)
 
 ### I should be able to
 
@@ -36,12 +31,18 @@ Write an application that displays records flowing in *real-time* from a topic.
 - see the records flowing without the UI to be stuck (and in real-time)
 - stop the consumption, select another topic, then consume it etc.
 
-### Tech orientation
+### Technical requirements
 
 - Only sbt or gradle, no Maven
 - Use JDK 11+ or more. (no JDK 8 please) (you may use the branch `jdk10` of tornadofx if you're using it)
 - Apache Kafka: Do NOT use consumer groups but custom partition assignments (no group id should be used)
 - JavaFX: Do NOT use FXML but plain code for views.
+
+## Design Inspiration
+
+Our existing product:
+
+<img src="https://user-images.githubusercontent.com/3936459/129449736-1f953556-30e9-44af-b753-fab8806fde69.png" width=500 />
 
 ### How long?
 
@@ -58,7 +59,8 @@ Review the [code-comments](https://github.com/conduktor/conduktor-coding-challen
 Here are additional stuff you should be using with Kotlin:
 
 - [Coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html): don't use Threads to do async stuff. Coroutine are like Fibers, can scale massively without impact and provide automatic supervision (parent-child relationships).
-- [Flow](https://kotlinlang.org/docs/reference/coroutines/flow.html): equivalent of RxJava, Reactor, Akka Streams, ZIO Streams etc. in Kotlin
+- [Flow](https://kotlinlang.org/docs/reference/coroutines/flow.html): equivalent of RxJava, Reactor, Akka Streams, ZIO Streams etc. in Kotlin.
 - [Arrow](https://arrow-kt.io/): the Functional companion to Kotlin's Standard Library (Either, Validated, traverse, etc.)
+- Scala/Kotlin interop to write: ZStreams -> Flow, ZIO -> Coroutine.
 
 
