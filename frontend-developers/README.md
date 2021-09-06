@@ -24,14 +24,14 @@ Create a SPA where we can:
 
 ## Technical requirements
 
-- React v17+
+- React v17+, hooks etc.
 - TypeScript 4.3+ (no JavaScript)
 - Ant Design
-- To fetch the topics and the data, build a mock rest API online (to use Axios and React hooks)
+- To fetch the topics and the data, build a quick and dirty REST API or or use an online mock service
 
 ## Design Inspiration
 
-Our existing product:
+Our existing product (list of topics that we can "consume" messages from):
 
 <img src="https://user-images.githubusercontent.com/3936459/129449736-1f953556-30e9-44af-b753-fab8806fde69.png" width=500 />
 
