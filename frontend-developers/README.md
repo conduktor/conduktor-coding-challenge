@@ -35,6 +35,8 @@ Our existing product (list of topics that we can "consume" messages from):
 
 <img src="https://user-images.githubusercontent.com/3936459/129449736-1f953556-30e9-44af-b753-fab8806fde69.png" width=500 />
 
+Don't try to reproduce it exactly, it's just to get you an idea!
+
 ## Handle the Login part using Auth0
 
 You can follow [the official example](https://auth0.com/docs/quickstart/spa/react/01-login).
