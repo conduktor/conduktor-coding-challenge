@@ -17,7 +17,7 @@ Apache Kafka is _basically_ a message broker. It has _topics_ containing _data_.
 Create a SPA where we can:
 
 - register/login/logout (we provide you an Auth0 sandbox, see below)
-- display our identity (name/photo) in the application (from the JWT)
+- display our identity (name/photo) in the application (`useAuth0()` using `auth0-react`)
 - create/list topics
 - consume data from a topic
 - switch the Locale of the application (using React Context)
