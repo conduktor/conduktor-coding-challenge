@@ -22,6 +22,7 @@ Write an API to:
 
 ### Technical requirements
 
+- Use a private Github repository
 - Use Scala/ZIO/http4s
 - You can use Caliban if you know GraphQL
 - Write tests for your API (need to make sure it works)
