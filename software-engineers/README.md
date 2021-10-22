@@ -13,7 +13,7 @@ Conduktor is a software company centered around Apache Kafka.
 
 ## Business requirements: a mini-Conduktor API
 
-Write an API to:
+Write an API (with several endpoints) to:
 
 - Connect to an Apache Kafka cluster
 - List its topics with metadata
