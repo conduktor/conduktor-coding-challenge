@@ -19,7 +19,7 @@ Create a SPA where we can:
 - register/login/logout (we provide you an Auth0 sandbox, see below)
 - display our identity (name/photo) in the application (`useAuth0()` using `auth0-react`)
 - create/list topics
-- click on a topic to consume data from it in real-time (data are flowing!)
+- click on a topic to consume its data in real-time (data are flowing!)
 - switch the Locale of the application (using React Context)
 
 ## Technical requirements
@@ -28,6 +28,7 @@ Create a SPA where we can:
 - TypeScript 4.3+ (no JavaScript)
 - Ant Design
 - To fetch the topics and the data, build a quick and dirty REST API or or use an online mock service
+- 💡 You can also use GraphQL (Apollo) if you know! That's what we are using for all our products.
 
 ## Design Inspiration
 
