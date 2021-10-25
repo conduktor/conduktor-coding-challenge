@@ -19,7 +19,7 @@ Create a SPA where we can:
 - register/login/logout (we provide you an Auth0 sandbox, see below)
 - display our identity (name/photo) in the application (`useAuth0()` using `auth0-react`)
 - create/list topics
-- consume data from a topic
+- click on a topic to consume data from it in real-time (data are flowing!)
 - switch the Locale of the application (using React Context)
 
 ## Technical requirements
