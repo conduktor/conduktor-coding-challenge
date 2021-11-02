@@ -12,14 +12,21 @@ We're hiring full-remote Front-end Developers experimented with React and Typesc
 Conduktor is a software company centered around Apache Kafka.
 Apache Kafka is _basically_ a message broker. It has _topics_ containing _data_. Any application can send data to Apache Kafka, and other applications can "listen" to these incoming data.
 
+## Vocabulary
+
+- Topics are a way to organize messages in Apache Kafka. Each topic has a name that is unique across the entire Kafka cluster.
+- Producers write data to topics, and consumers read data from topics. (it's a Pub/Sub system)
+
 ## Business requirements: a mini-Conduktor
 
 Create a SPA where we can:
 
 - register/login/logout (we provide you an Auth0 sandbox, see below)
 - display our identity (name/photo) in the application (`useAuth0()` using `auth0-react`)
-- create/list topics
+- create a topic with a name
+- list topics
 - click on a topic to consume its data in real-time (data are flowing!)
+  - You can take a peek at how it works today: https://youtu.be/zB9tsZN8Fbs?list=PLYmXYyXCMsfMMhiKPw4k1FF7KWxOEajsA&t=96
 - switch the Locale of the application (using React Context)
 
 ## Technical requirements
