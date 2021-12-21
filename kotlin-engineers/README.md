@@ -32,11 +32,9 @@ For this challenge, write a Rich Application in Kotlin with 2 modules:
 - Use JDK 11+ or more. (you may use the branch `jdk10` of tornadofx if you're using it)
 - JavaFX: Do NOT use FXML but plain code for views.
 
-### Design Inspiration
+### Inspiration
 
-Our existing product:
-
-<img src="https://user-images.githubusercontent.com/3936459/129449736-1f953556-30e9-44af-b753-fab8806fde69.png" width=500 />
+Don't hesitate to download and run our product to see this in action: https://www.conduktor.io/
 
 ### How long?
 
