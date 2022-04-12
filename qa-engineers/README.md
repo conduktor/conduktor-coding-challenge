@@ -10,7 +10,7 @@ Please read this if you want to apply: [How our Application process works?](../a
 
 You'll write some e2e tests for [AKHQ](https://akhq.io/), a tool similar to our product.
 
-To run AKHQ locally on you're computer, we're providing you two scripts, `start_akhq.sh` and `stop_akhq.sh`.    
+To run AKHQ locally on your computer, we're providing you two scripts, `start_akhq.sh` and `stop_akhq.sh`.    
 You'll need to have installed [Docker](https://www.docker.com/products/docker-desktop/) first on your computer to run these scripts.
 
 To start AKHQ,
