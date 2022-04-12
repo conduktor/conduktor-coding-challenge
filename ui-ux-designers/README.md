@@ -2,7 +2,7 @@
 
 Don't hesitate to do the challenges presented here and tell us: jobs@conduktor.io!
 
-We're hiring a UI/UX Designer experimented with Figma to help us making a great UI and improve the UX.
+We're hiring a UI/UX Designer experimented with Figma to help us make a great UI and improve the UX.
 
 # 1. The Job requirements
 
