@@ -28,6 +28,7 @@ We ask you to write 3 e2e tests for AKHQ.
 1. You must write your tests with TypeScript and [Playwright](https://www.playwright.dev/).
 2. Your tests must be run on Chrome, Safari and Firefox.
 3. Your code must be committed to a private repository on GitHub.     
+4. Your code must contain a `README.md` file explaining how to run the tests and anything you think is important for us to know.
 
 ### Test 1 - Show hidden topics
 
