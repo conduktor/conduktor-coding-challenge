@@ -59,3 +59,7 @@ Your test must:
 - start the Live Trail on this new Topic
 - produce a message in that Topic 
 - validate that the message you produced has been displayed by the Live Trail you started previously    
+
+
+
+Have fun! 🚀
