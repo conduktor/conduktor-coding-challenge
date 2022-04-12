@@ -50,7 +50,7 @@ Once a message is produced, the programs waiting for it will receive it and do s
 Messages are sent in things called "topics" so that some programs can consume from some topics while some other programs will consume from other topics.
 
 AKHQ has a "Live Trail" feature that allows you to consume from a Topic in live.    
-You tell AKHQ which Topic to consume from, and it'll start to wait for messages published in that Topic.    
+You tell AKHQ which Topic to consume from, and it'll start to wait for messages produced to that Topic.    
 Once a message is published in that Topic, AKHQ will show it in the UI.    
 
 We ask you to write a test suite proving that the Live Trail feature works.    
