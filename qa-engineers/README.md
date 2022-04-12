@@ -45,7 +45,7 @@ Write a test suite validating that creating a Topic works in AKHQ.
 AKHQ is a nice interface on top of [Apache Kafka](https://kafka.apache.org/).
 
 Apache Kafka is a kind of letter box where some programs will publish messages into (it's called "producing"), and some other programs will wait for and read these messages when they arrive (it's called "consuming").     
-Once a message is produced, the programs waiting for it will do receive it and do something with it.     
+Once a message is produced, the programs waiting for it will receive it and do something with it.     
 
 Messages are sent in things called "topics" so that some programs can consume from some topics while some other programs will consume from other topics.
 
