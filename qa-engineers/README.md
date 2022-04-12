@@ -25,7 +25,7 @@ We ask you to write 3 e2e tests for AKHQ.
 
 ### Constraints
 
-1. You must your tests with TypeScript and with [Playwright](https://www.playwright.dev/).
+1. You must write your tests with TypeScript and [Playwright](https://www.playwright.dev/).
 2. Your code must be committed to a private repository on GitHub.     
 
 ### Test 1 - Show hidden topics
