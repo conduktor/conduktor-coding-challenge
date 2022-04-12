@@ -16,7 +16,7 @@ You'll need to have installed [Docker](https://www.docker.com/products/docker-de
 To start AKHQ,
 - run `./start_akhq.sh`
 - wait for a few seconds (it can be slow) 
-- in your browser, goes to `localhost:8080`.    
+- in your browser, go to `localhost:8080`.    
   You should see something like this: 
 
 ![](akhq_welcome_page.png)
