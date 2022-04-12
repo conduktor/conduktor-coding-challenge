@@ -54,4 +54,8 @@ You tell AKHQ which Topic to consume from, and it'll start to wait for messages 
 Once a message is produced in that Topic, AKHQ will show it in the UI.    
 
 We ask you to write a test suite proving that the Live Trail feature works.    
-Your test must create a new Topic, start the Live Trail on this new Topic, then produce a message in that Topic and finally validate that the message you produced has been read by the Live Trail you started previously.     
+Your test must:
+- create a new Topic
+- start the Live Trail on this new Topic
+- produce a message in that Topic 
+- validate that the message you produced has been displayed by the Live Trail you started previously    
