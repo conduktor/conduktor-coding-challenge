@@ -35,7 +35,7 @@ We ask you to write 3 e2e tests for AKHQ.
 On the "Topics" page, when the user selects "Show all topics" in the dropdown list present in the filters of the table and then clicks on the "Search" button, 
 the table should at least show 2 additional lines.     
 One of the additional lines must contain `__consumer_offsets` as the Topic name.    
-The other additional line must contain `___schemas` as the Topic name.    
+The other additional line must contain `_schemas` as the Topic name.    
 
 ### Test 2 - Create a topic
 
