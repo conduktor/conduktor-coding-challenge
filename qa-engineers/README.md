@@ -62,6 +62,12 @@ Your test must:
 - produce a message in that Topic 
 - validate that the message you produced has been displayed by the Live Trail you started previously    
 
+### (Optional) Going further
+
+This part of the exercise is optional.
+
+Configure Github Actions to run your tests automatically.
+
 ### Once done
 
 Email us to tell us that you're done.
