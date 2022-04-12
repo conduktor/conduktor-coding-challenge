@@ -14,6 +14,8 @@ To run AKHQ locally on your computer, we're providing you two scripts, [start_ak
 You'll need to have installed [Docker](https://www.docker.com/products/docker-desktop/) first on your computer to run these scripts.
 
 To start AKHQ,
+- clone this repository on your computer
+- in a terminal, go into the `qa-engineers` directory
 - run `./start_akhq.sh`
 - wait for a few seconds (it can be slow) 
 - in your browser, go to `localhost:8080`.    
