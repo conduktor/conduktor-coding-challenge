@@ -64,4 +64,4 @@ Your test must:
 
 Email us to tell us that you're done.
 
-Have fun! 🚀
+Have fun 🚀
