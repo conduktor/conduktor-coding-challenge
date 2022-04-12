@@ -13,7 +13,7 @@ You'll write some e2e tests for [AKHQ](https://akhq.io/), a tool similar to our 
 To run AKHQ locally on you're computer, we're providing you two scripts, `start_akhq.sh` and `stop_akhq.sh`.    
 You'll need to have installed [Docker](https://www.docker.com/products/docker-desktop/) first on your computer to run these scripts.
 
-To start AKHQ, run `./start_akhq.sh` then wait for a few seconds (it can be long) and in your browser, goes to `localhost:8080`.
+To start AKHQ, run `./start_akhq.sh` then wait for a few seconds (it can be slow) and in your browser, goes to `localhost:8080`.
 You should see something like this: 
 
 ![](akhq_welcome_page.png)
