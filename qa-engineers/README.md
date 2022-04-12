@@ -60,6 +60,8 @@ Your test must:
 - produce a message in that Topic 
 - validate that the message you produced has been displayed by the Live Trail you started previously    
 
+### Once done
 
+Email us to tell us that you're done.
 
 Have fun! 🚀
