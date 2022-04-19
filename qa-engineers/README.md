@@ -44,7 +44,7 @@ The other additional line must contain `_schemas` as the Topic name.
 From the "Topics" page, the user can create a new Topic via the "Create a topic" button.     
 Write a test suite validating that creating a Topic works in AKHQ.    
 
-### Test 3 - Live Trail
+### Test 3 - Live Tail
 
 AKHQ is a nice interface on top of [Apache Kafka](https://kafka.apache.org/).
 
@@ -53,16 +53,16 @@ Once a message is produced, the programs waiting for it will receive it and do s
 
 Messages are sent in things called "topics" so that some programs can consume from some topics while some other programs will consume from some other topics.
 
-AKHQ has a "Live Trail" feature that allows you to consume from a Topic in live.    
+AKHQ has a "Live Tail" feature that allows you to consume from a Topic in live.    
 You tell AKHQ which Topic to consume from, and it'll start to wait for messages produced to that Topic.    
 Once a message is produced in that Topic, AKHQ will show it in the UI.    
 
-We ask you to write a test suite proving that the Live Trail feature works.    
+We ask you to write a test suite proving that the Live Tail feature works.    
 Your test must:
 - create a new Topic
-- start the Live Trail on this new Topic
+- start the Live Tail on this new Topic
 - produce a message in that Topic 
-- validate that the message you produced has been displayed by the Live Trail you started previously    
+- validate that the message you produced has been displayed by the Live Tail you started previously    
 
 ### (Optional) Going further
 
