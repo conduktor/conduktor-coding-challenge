@@ -23,8 +23,8 @@ Write an API (with several endpoints) to:
 ### Technical requirements
 
 - Use a private Github repository
-- Use Scala/ZIO/http4s
-- You can use Caliban if you know GraphQL
+- Use Scala and ZIO
+- You can write a REST API or a GraphQL API, up to you
 - Write tests for your API (need to make sure it works)
 - Apache Kafka: Do NOT use consumer groups but custom partition assignments (no group id should be used)
 - Only sbt
