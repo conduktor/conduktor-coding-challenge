@@ -25,7 +25,7 @@ Write an API (with several endpoints) to:
 - Use a private Github repository
 - Use Scala and ZIO
 - You can write a REST API or a GraphQL API, up to you
-- Write tests for your API (need to make sure it works)
+- Write tests
 - Apache Kafka: Do NOT use consumer groups but custom partition assignments (no group id should be used)
 - Only sbt
 
