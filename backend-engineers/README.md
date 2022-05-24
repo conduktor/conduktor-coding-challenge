@@ -4,7 +4,7 @@ Don't hesitate to do the challenges presented here and tell us: jobs@conduktor.i
 
 We're hiring Software Engineers familiar with the Apache Kafka ecosystem (as Developers & Ops) and Scala/ZIO.
 
-- Job description to read: [Software Engineers](https://apply.workable.com/conduktor/j/A7E3C47339/).
+- Job description to read: [Software Engineers](https://jobs.lever.co/conduktor/cd77a517-cb07-4f1c-8ec4-ec5b16d33f11).
 - Please read this if you want to apply: [How our Application process works?](../application-process.md). This is necessary to ensure your application process will be smooth.
 
 # The Challenge
