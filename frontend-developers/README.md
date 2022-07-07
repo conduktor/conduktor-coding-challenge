@@ -33,7 +33,7 @@ Create a SPA where we can:
 
 - React v17+, hooks etc.
 - TypeScript 4.3+ (no JavaScript)
-- Ant Design
+- Use the UI library you want
 - To fetch the topics and the data, build a quick and dirty REST API or or use an online mock service
 - 💡 You can also use GraphQL (Apollo) if you know! That's what we are using for all our products.
 
