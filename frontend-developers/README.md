@@ -34,7 +34,7 @@ Create a SPA where we can:
 - React v17+, hooks etc.
 - TypeScript 4.3+ (no JavaScript)
 - Use the UI library you want
-- To fetch the topics and the data, build a quick and dirty REST API or or use an online mock service
+- To fetch the topics and the data, build a quick and dirty REST API or or use an online mock service. No need to start a Kafka. But feel free to do it if you know. ;-)
 - 💡 You can also use GraphQL (Apollo) if you know! That's what we are using for all our products.
 
 ## Design Inspiration
