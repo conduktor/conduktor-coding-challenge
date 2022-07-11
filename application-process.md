@@ -10,15 +10,9 @@ This document describes the Conduktor hiring process from the point of view of t
 
 ### Global Employment
 
-We are a USA-based company: to hire you, we are using https://www.oysterhr.com/ to hire employees in their own country. 
+We are a USA-based company and have subsidiaries in Ireland, UK, France to hire you as employees. If you are part of another contract, we either do b2b contracts or use https://www.oysterhr.com/ to hire you as employe in your own country.
 
-This allows us to have built-in legal and tax compliance, including automatic deductions and tax withholdings, a local HR and legal expertise so we can provide a normal employee experience, anywhere in the world.
-
-You will be hired through OysterHR on behalf of Conduktor Inc. That does not change a thing for you, you will be an employee in your country with all the advantages this provides.
-
-### Health Insurance
-
-We offer a worldwide premium Health Insurance to our employees via Safety Wing.
+This allows us to have built-in legal and tax compliance, including automatic deductions and tax withholdings, a local HR and legal expertise so we can provide the expected employee experience, anywhere in the world.
 
 ### Screening
 
