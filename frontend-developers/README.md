@@ -4,7 +4,7 @@ Don't hesitate to do the challenges presented here and tell us: jobs@conduktor.i
 
 We're hiring full-remote Front-end Developers experimented with React and Typescript, with an interest in beautiful UIs, able to think as a user (UX), and used to work with backend teams (Scala here).
 
-- Job description to read: [Front-End Developer](https://apply.workable.com/conduktor/j/5F3415C656/).
+- Job description to read: [Front-End Developer](https://jobs.lever.co/conduktor/7fcba886-ff74-4e08-a76d-de9c51e5c838).
 - Please read this if you want to apply: [How our Application process works?](../application-process.md). This is necessary to ensure your application process will be smooth.
 
 # The Challenge
