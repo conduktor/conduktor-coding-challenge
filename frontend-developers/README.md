@@ -27,18 +27,18 @@ Create a SPA where we can:
 - list topics
 - click on a topic to consume its data in real-time (data are flowing!)
   - You can take a peek at how it works today: https://youtu.be/zB9tsZN8Fbs?list=PLYmXYyXCMsfMMhiKPw4k1FF7KWxOEajsA&t=96
-- use a state (react context or redux) to save a locale, and use it in a component (no need to setup i18n libs, we're just validating state usage, a hardcoded traduction is ok)
+- use a state (react context or redux) to save a locale, and retrieve it in a component (no need to setup i18n libs, we're just validating state usage)
 
 ## Technical requirements
 
 - TypeScript 4.3+ (no JavaScript)
 - React v17+, hooks, React-router, manage forms, manage state
-- Use GraphQL (Apollo Client or @tanstack/react-query), that's what we are using for all our products.
+- Use GraphQL (either Apollo Client or @tanstack/react-query), that's what we are using for all our products.
 - Use the UI library you want
 
 ## Design Inspiration
 
-- Our existing product (list of topics that we can "consume" messages from):
+- Our desktop product (list of topics that we can "consume" messages from):
 
 <img src="https://user-images.githubusercontent.com/3936459/129449736-1f953556-30e9-44af-b753-fab8806fde69.png" width=500 />
 
@@ -57,11 +57,12 @@ You can create your own Auth0 sandbox OR use this one:
 
 ## Server
 
-We provide a server: TODO. Introspection is enabled. Routes are not authenticated (to let you explore freely) but we expect you to pass the token properly
+We provide a nodejs server, [see here for the instructions](./server/).
+Introspection is enabled. Routes are not authenticated (to let you explore freely) but we expect the token to be passed in headers
 
-## Bonus :
+### Bonus :
 
-- Production mode : use the /flaky endpoint (TODO). It will fail randomly, forcing you to handle errors (in a UX-friendly manner ofc) 🦹
+Production mode : use the --flaky mode on the server. It will fail randomly, forcing you to handle errors 🦹 (think UX)
 
 ## How long?
 
